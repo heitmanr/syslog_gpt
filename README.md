@@ -1,6 +1,10 @@
 # syslog_gpt
-Demo only - learn how to use Chat-GPT to analyze plain-text documents - here Cisco IOS Syslog-Files 
+[!WARNING]
+Demo only
 
+Learn how to use Chat-GPT to analyze plain-text documents - here Cisco IOS Syslog-Files 
+
+[!Note]
 This is "syslog.py" from https://github.com/automateyournetwork/NetGru/tree/main/chat_with_catalyst
  * credits to John Capobianco
 
