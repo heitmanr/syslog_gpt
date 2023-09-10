@@ -1,6 +1,4 @@
-import os
-os.chdir("C:\\RH\\BOX\\05-DEV\\chat_with_catalyst\\")
-
+#
 def llm_setup():
     import openai
     from langchain.chat_models import ChatOpenAI
