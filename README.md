@@ -42,5 +42,7 @@ at least "pip install"
 just do
 * python syslog_gpt.py
 
+### Example
+![syslog_gpt](https://github.com/heitmanr/syslog_gpt/assets/26636908/0288b62d-2acf-42e0-aa35-e003d42549d3)
 
 
