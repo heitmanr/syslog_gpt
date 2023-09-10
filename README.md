@@ -42,6 +42,8 @@ at least "pip install"
 * log into a Cisco device
 * do "show logging"
 * capture the output into a local file called "syslog.txt"
+> [!WARNING]
+You might want to remove (or obfuscate) all private data to prevent accidentally publishing those "to the internet".
 
 ## Run
 
