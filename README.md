@@ -1,6 +1,8 @@
 # syslog_gpt
+Demo only
+
 > [!WARNING]
-Demo only - processing large amounts of data might be costly [my syslog.txt has 128 lines - 1x analysis costs ~25ct]
+processing large amounts of data might be costly [my syslog.txt has 128 lines - 1x analysis costs ~25ct]
 
 Learn how to use Chat-GPT to analyze plain-text documents - here Cisco IOS Syslog-Files 
 
