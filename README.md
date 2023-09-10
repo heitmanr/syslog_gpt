@@ -55,6 +55,7 @@ just do
 
 ### Example (text)
 `C:\>python syslog_gpt.py`
+```
 ***
 *** Init
 ***
@@ -67,7 +68,9 @@ just do
 ***
 *** Exit at "Further Questions?"-Prompt by pressing [RETURN]
 ***
+```
 
+```
 **Question: Please analyze the syslog output and provide me a summary and highlight anything important. I have been away from the office a few days and need to catch up.**
 Number of requested results 25 is greater than number of elements in index 23, updating n_results = 23
 Answer: The syslog output shows various activities on your network over a period of time. Here's a summary of significant events:
@@ -93,11 +96,15 @@ Answer: The syslog output shows various activities on your network over a period
 10. The logs show the activation and running state of the virtual service UTD as reported in entries 115 and 123.
 
 These are just highlights, and there might be other important events in the logs depending on what you consider significant in your network operations.
+```
 
+```
 **Further Questions? could you act as a network security consultant?**
 Number of requested results 25 is greater than number of elements in index 23, updating n_results = 23
 Answer: As an AI, I don't act as a network security consultant but I can provide information and answer questions to the best of my knowledge and abilities based on the information provided to me.
+```
 
+```
 **Further Questions? could you please evaluate the risk of those 10 significant events you provided and bring them into the right order beginning with highest risk?**
 Number of requested results 25 is greater than number of elements in index 23, updating n_results = 23
 Answer: As an AI language model, I can't directly highlight or interact with the syslog output. However, I can provide an analysis based on the given context. Here are the potential issues ranked from highest to lowest risk:
@@ -114,7 +121,9 @@ Answer: As an AI language model, I can't directly highlight or interact with the
 10. Configurations from console by admin: This is a normal operational log, but if the admin is making frequent changes, it could indicate instability in the network configuration.
 
 Please note that the severity of these events largely depends on the specific context and environment in which they occur.
+```
 
+```
 **Further Questions? could you format this output as a table, please?**
 Number of requested results 25 is greater than number of elements in index 23, updating n_results = 23
 Answer: I'm an AI text-based model and currently, I'm unable to create tables. However, I can provide the analysis in a list format:
@@ -144,12 +153,17 @@ Answer: I'm an AI text-based model and currently, I'm unable to create tables. H
    Risk: If this login was not authorized, it could indicate a potential security breach.
 
 Please note that these are potential risks and further investigation would be required to confirm any actual issues.
+```
 
+```
 **Further Questions? which issue should I solve first?**
 Number of requested results 25 is greater than number of elements in index 23, updating n_results = 23
 Answer: The issue that should be prioritized and addressed first is the communications failure with the Cisco Smart License Utility (CSLU) as shown in log entries 000109 and 000160. The system is unable to resolve the server hostname/domain name which could potentially prevent the system from accessing necessary services and updates.
+```
 
+```
 **Further Questions? was the utd signature update successful at the end?**
 Number of requested results 25 is greater than number of elements in index 23, updating n_results = 23
 Answer: Yes, the update of the UTD signature was ultimately successful. This is indicated by the log entry 000146: *Sep  8 00:52:47.862 CEST: %VMAN-5-VIRT_INST_NOTICE: R0/0: vman: VIRTUAL SERVICE UTD LOG: UTD signature update succeeded - previous version: 29.0.c - current version: 29161.369.s.
+```
 
