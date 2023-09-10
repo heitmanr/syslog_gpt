@@ -1,9 +1,6 @@
 # syslog_gpt
 Demo only
 
-> [!WARNING]
-processing large amounts of data might be costly [my syslog.txt has 128 lines - 1x analysis costs ~25ct]
-
 Learn how to use Chat-GPT to analyze plain-text documents - here Cisco IOS Syslog-Files 
 
 > [!Note]
@@ -47,8 +44,11 @@ You might want to remove (or obfuscate) all private data to prevent accidentally
 
 ## Run
 
+> [!WARNING]
+processing large amounts of data might be costly [my syslog.txt has 128 lines - 1x analysis costs ~25ct]
+
 just do
-* python syslog_gpt.py
+* `python syslog_gpt.py`
 
 ### Example
 ![syslog_gpt](https://github.com/heitmanr/syslog_gpt/assets/26636908/0288b62d-2acf-42e0-aa35-e003d42549d3)
