@@ -74,7 +74,7 @@ def init():
     print("(2b) store data in DB")
     vectordb = get_vectordb(docs)
     #
-    print("(3) Setup a Conversational Retreival Chain from LLM, using the DB, with K Values of 25, and the memory")
+    print("(3) Setup a Conversational Retrieval Chain from LLM, using the DB, with K Values of 25, and the memory")
     #
     qa = get_qa(llm, vectordb)  
     #
