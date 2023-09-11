@@ -23,6 +23,8 @@ at least "pip install"
 * langchain
 * tiktoken
 
+`pip install openai chromadb langchain tiktoken`
+
 ## Preparation (OpenAI)
 * create an OpenAI account
 * add billing
