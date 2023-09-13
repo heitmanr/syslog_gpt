@@ -168,4 +168,6 @@ Further Questions? was the utd signature update successful at the end?
 Number of requested results 25 is greater than number of elements in index 23, updating n_results = 23
 Answer: Yes, the update of the UTD signature was ultimately successful. This is indicated by the log entry 000146: *Sep  8 00:52:47.862 CEST: %VMAN-5-VIRT_INST_NOTICE: R0/0: vman: VIRTUAL SERVICE UTD LOG: UTD signature update succeeded - previous version: 29.0.c - current version: 29161.369.s.
 ```
+# Disclaimer
+Cisco provides Code Exchange for convenience and informational purposes only, with no support of any kind. This page contains information and links from third-party websites that are governed by their own separate terms. Reference to a project or contributor on this page does not imply any affiliation with or endorsement by Cisco. Please note that some of the repositories in Code Exchange may be enabled to interact with third-party Generative AI platforms outside of Cisco’s control, and users should review those third-party terms and privacy statements to understand how data is processed, stored or used, including input data.
 
